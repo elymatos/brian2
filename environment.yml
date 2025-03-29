@@ -1,0 +1,19 @@
+name: brian2-env
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly  # Remove or replace with 'cudatoolkit=X.X' for GPU support
+  - scikit-learn
+  - numpy
+  - pandas
+  - matplotlib
+  - brian2
+  - pip
+  - pip:
+      - torchtext  # Example of additional PyTorch-related package
